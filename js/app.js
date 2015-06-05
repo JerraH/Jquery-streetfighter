@@ -41,7 +41,15 @@ $(document).keydown(function(e) {
 	$('.ryucool').show();
 }});
 
+
+
+
 $(document).keyup(function(){
 	$('.ryucool').hide();
-	$('.ryustill').show();
-})
+	if ($('.ryu').hover()) {
+	$('.ryuready').show();
+	}
+	else {$('.ryustill').show();
+	};
+});
+
