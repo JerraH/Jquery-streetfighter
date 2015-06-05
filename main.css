@@ -18,16 +18,16 @@ body {
 	float:left;
 }
 
-.ryu, .ryustill, .ryuready, .ryuthrowing {
+.ryu, .ryustill, .ryuready, .ryuthrowing, .ryucool {
 	width: 649px;
 	height: 494px;
 }
 
-.ryuready, .ryuthrowing {
+.ryuready, .ryuthrowing, .ryucool {
 	display:none;
 }
 
-.hadouken, .ryustill, .ryuready, .ryuthrowing {
+.hadouken, .ryustill, .ryuready, .ryuthrowing, .ryucool {
 	background-repeat:no-repeat;
 }
 
@@ -43,10 +43,15 @@ body {
 	background-image: url(images/ryu-standing-still.png);
 }
 
+.ryucool {
+	background-image: url(images/ryu-cool.gif);
+}
+
 .hadouken {
 	background-image: url(images/hadouken.gif);
 	width: 196px;
 	height: 90px;
+	display:none;
 	float:left;
 	  position: relative;
  	 z-index: 10;
